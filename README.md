@@ -6,6 +6,34 @@ De map is ingedeeld per onderwerp. Scripts staan bij het onderwerp waar ze bij
 horen. Inputdata staat meestal in `raw/`, gemaakte bestanden in `processed/`.
 
 ---
+## Installatie
+
+Gebruik bij voorkeur een lokale Python-omgeving in de projectmap. Maak eerst een
+`.venv` aan en installeer daarna de benodigde packages uit `requirements.txt`.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+```
+
+Daarna kunnen scripts vanuit de projectmap worden uitgevoerd met de Python uit
+de virtuele omgeving, bijvoorbeeld:
+
+```bash
+.venv/bin/python 5_bereikbaarheid/bop.py
+```
+
+Op Windows is het activeren van de omgeving anders:
+
+```powershell
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+---
 ## Ruwe bronnen
 
 Ruwe bestanden staan bij de projectstap die ze verwerkt. Daardoor blijft duidelijk
