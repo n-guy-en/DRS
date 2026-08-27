@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="358" viewBox="0 0 500 358">
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #111827; }
+    .label { font: 400 26px Arial, sans-serif; fill: #111827; }
+  </style>
+  <rect x="0" y="0" width="500" height="358" fill="#ffffff"/>
+  <text x="250" y="42" text-anchor="middle" class="title">Legenda</text>
+  <rect x="30" y="76" width="58" height="26" fill="#d73027" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="96" class="label">0-20%</text>
+  <rect x="30" y="120" width="58" height="26" fill="#fc8d59" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="140" class="label">20-40%</text>
+  <rect x="30" y="164" width="58" height="26" fill="#fee08b" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="184" class="label">40-60%</text>
+  <rect x="30" y="208" width="58" height="26" fill="#d9ef8b" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="228" class="label">60-80%</text>
+  <rect x="30" y="252" width="58" height="26" fill="#1a9850" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="272" class="label">80-100%</text>
+  <rect x="30" y="296" width="58" height="26" fill="#bdbdbd" fill-opacity="1" stroke="#555555" stroke-width="1.2"/>
+  <text x="112" y="316" class="label">Geen woningen</text>
+</svg>

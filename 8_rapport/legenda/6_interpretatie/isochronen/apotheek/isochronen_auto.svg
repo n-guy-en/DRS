@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="182" viewBox="0 0 420 182">
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #111827; }
+    .label { font: 400 26px Arial, sans-serif; fill: #111827; }
+  </style>
+  <rect x="0" y="0" width="420" height="182" fill="#ffffff"/>
+  <text x="210" y="42" text-anchor="middle" class="title">Legenda</text>
+  <rect x="30" y="76" width="58" height="26" fill="#2b8cbe" fill-opacity="0.75" stroke="#045a8d" stroke-width="1.2"/>
+  <text x="112" y="96" class="label">0-5 min</text>
+  <rect x="30" y="120" width="58" height="26" fill="#7bccc4" fill-opacity="0.6" stroke="#2b8cbe" stroke-width="1.2"/>
+  <text x="112" y="140" class="label">5-10 min</text>
+</svg>

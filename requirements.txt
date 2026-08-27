@@ -1,0 +1,10 @@
+pandas
+geopandas
+pyogrio
+pyproj
+shapely
+networkx
+numpy
+osmnx
+requests
+openpyxl

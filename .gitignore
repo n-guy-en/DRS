@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtuele omgevingen
+.venv/
+venv/
+env/
+
+# macOS / editor
+.DS_Store
+.vscode/
+
+# Lokale downloads, brondata, caches en gegenereerde analyse-output
+0_layers/processed/
+
+1_buurten/raw/
+
+2_bag/lvbag-extract-nl/
+2_bag/bag_frl_xml/
+2_bag/processed/
+
+3_voorzieningen/raw/*
+!3_voorzieningen/raw/ov/
+!3_voorzieningen/raw/ov/ov_haltes.geojson
+3_voorzieningen/processed/
+
+4_netwerk/raw/
+4_netwerk/processed/
+
+5_bereikbaarheid/processed/
+
+6_interpretatie/processed/
+
+7_analyses/processed/
+
+8_rapport/archief/
+8_rapport/processed/
+
+9_model
+
+
+# Lokale Excel-inputs
+*.xlsx
